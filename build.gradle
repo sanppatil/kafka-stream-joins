@@ -18,6 +18,6 @@ application {
 
 
 task(runJoins, dependsOn: 'classes', type: JavaExec) {
-   main = 'com.kafka.stream.JoinsMain'
+   main = 'com.kafka.stream.Main'
    classpath = sourceSets.main.runtimeClasspath
 }
